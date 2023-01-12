@@ -733,6 +733,7 @@ margin: 10px  0px;
   
   
 }
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
   
@@ -772,7 +773,27 @@ margin: 10px  0px;
   
   
 }
-
+.port-image-mani{
+  display: flex;
+   gap: 20px;
+ flex-direction: column;
+ }
+ .port-img{
+   width: 100% !important;
+   height: 300px;
+  
+   
+ }
+ .port-img img{
+   width: 100%;
+   max-width: 95%;
+   vertical-align: auto;
+   padding: 5px 0px;
+  margin-bottom: 5px !important;
+  border-radius: 12px;
+ 
+  
+ }
 .port-img:hover img{
 margin-top: -700px;
 transition: 5.5s;
@@ -781,6 +802,6 @@ transition: 5.5s;
 }
 
 
-}
+
 
 
